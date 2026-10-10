@@ -120,7 +120,8 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-
+# Lấy API key từ bộ nhớ bảo mật của Streamlit
+API_KEY = st.secrets["GEMINI_API_KEY"]
 client = genai.Client(api_key=API_KEY)
 
 col_input, col_output = st.columns([1, 2], gap="large")
