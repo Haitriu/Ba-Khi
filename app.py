@@ -51,7 +51,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-API_KEY = "AQ.Ab8RN6LrLrXR46YP7k5fRlXMwZnlKfpRB42bT7G8N1VFEf3kRg"
+API_KEY = ""
 client = genai.Client(api_key=API_KEY)
 
 col_input, col_output = st.columns([1, 2], gap="large")
